@@ -1,0 +1,409 @@
+body{
+  margin:0;
+}
+/*title8*/
+.title{
+  margin:0;
+  color:black;
+  font-size: 20px;
+  font-family: , cursive;
+}
+/*navigation bar-css*/
+.topnav .rightnav{
+  float:right;
+  color: #f2f2f2;
+  margin: 13px ;
+}
+.rightnav i{
+  padding: 10px 15px;
+}
+.topnav .rightnav:hover{
+  color:#FFF7E0;
+}
+.topnav {
+  margin:0;
+  background-color:  #191A19;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Dancing Script', sans-serif;
+font-weight: 200px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  color:#ECAC5D;
+}
+
+/*hero image*/
+body, html {
+
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("woman3.jpg");
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  z-index: 1;
+font-family: 'Antic Didone', serif;
+font-size: 35px;
+  letter-spacing: 1px;
+  padding-bottom: 0;
+  position: absolute;
+  right:3%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  color:  #f2f2f2;
+}
+
+.explore{
+  font-family:'Dancing Script', sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+margin-top: 4%;
+  border:none;
+font-weight: 400px;
+letter-spacing: 2px;
+text-decoration: none;
+font-size: 18px;
+color: #f2f2f2;
+padding:10px 20px;
+background-color:#ECAC5D;
+
+}
+.explore:hover{
+opacity:0.3;
+}
+/*middle container*/
+.fade-in-text {
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.middle{
+  margin-top: 5%;
+  padding:4% 5% 2%;
+  text-align: center;
+  background-color: #EDEDD0;
+  color:#33313B;
+  line-height: 1;
+  font-size: 40px;
+}
+.middle-text{
+    font-family: 'Baskervville', serif;
+}
+.shop{
+  font-family:'Dancing Script', sans-serif;
+  letter-spacing: 2px;
+margin-top: 2%;
+width:15%;
+  border:none;
+font-weight: 400px;
+text-decoration: none;
+font-size: 21px;
+color: #f2f2f2;
+padding:10px 20px;
+background-color:#191A19;
+}
+.shop:hover{
+color:#ECAC5D;
+}
+/*brands editing*/
+.container {
+  margin-top:3%;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 30px 20px 30px rgba(0,0,0,.2);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+.brand-link{
+  color:black;
+  text-decoration: none;
+}
+.brand-link:hover{
+  opacity: 0.3;
+}
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 0 0 30%; }
+.box:hover > img {
+  width: 100%;
+  height: calc(100% - 10vh);
+}
+
+.img-desc{
+  font-family: 'Baskervville', serif;
+}
+.brand-heading{
+  color:#33313B;
+margin: 10% 5% 2%;
+  font-size: 40px;
+  text-align: center;
+    font-family: 'Baskervville', serif;
+}
+/*new arrivals section*/
+/*animations for images*/
+.fade-in-image .new{
+  margin-left: 20%;
+  margin-top: 7%;
+   box-shadow: 20px 20px 30px rgba(0,0,0,.2);
+  float: left;
+  animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  -moz-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
+  position: relative;
+}
+.fade-in-image .new1{
+  z-index: 1;
+  position:absolute;
+  left:50%;
+  margin-top: 30%;
+   box-shadow: 20px 20px 30px rgba(0,0,0,.2);
+  float: right;
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+}
+
+  .new-heading{
+   color:#33313B;
+   font-weight: 300px;
+   font-size: 40px;
+  float: right;
+     position: relative;
+     right:23%;
+     margin-top:13%;
+  }
+  .new-heading1{
+   color:#33313B;
+   font-size: 40px;
+   float:left;
+   margin-top: 58%;
+   right:27%;
+     font-family: 'Baskervville', serif;
+     position: relative;
+  }
+
+.new-button{
+  margin-top:3%;
+  letter-spacing: 3px;
+  font-weight: 300px;
+  border:none;
+  text-decoration: underline;
+  color: #423F3E;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+}
+.new-button:hover{
+  color:#716F81;
+}
+/*discount divider*/
+.discount{
+  position: relative;
+   top:175%;
+   height: 450px;
+    padding: 25px;
+    background: url("silk.jpg") no-repeat center center;
+    opacity: 0.9;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.discount-info{
+  color:white;
+  font-size:50px;
+  margin-top: 2%;
+  position: absolute;
+ right: 26%;
+ width: 40%;
+}
+.email-form{
+  position: absolute;
+  top:55%;
+  left:34%;
+}
+.fname{
+  font-size: 13px;
+  font-weight: 400px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=text], select {
+  width:100%;
+  padding: 14px 120px 14px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius:1px;
+  box-sizing: border-box;
+}
+.angle-right{
+  color: #f2f2f2;
+  padding:7px 20px;
+  background-color:#191A19;
+position: absolute;
+margin-left: 5%;
+margin-top: 3%;
+}
+.angle-right:hover{
+  background-color: #E26A2C;
+}
+.f{
+    background-color:#191A19;
+    height: 50%;
+    width: 100%;
+}
+/*footer*/
+.footer{
+  position: relative;
+  top:125%;
+    background-color:#191A19;
+    height: 45%;
+    width: 100%;
+}
+.logo{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  font-size: 50px;
+  color:#f2f2f2;
+  border:2px solid #f2f2f2;
+  padding:20px;
+  border-radius: 100%;
+}
+.first{
+position: absolute;
+left:25%;
+top:16%;
+}
+.second{
+position: absolute;
+left:40%;
+top:16%;
+}
+.third{
+  position: absolute;
+  top: 16%;
+left: 73%;
+}
+.info{
+  color: white;
+  font-size: 15px;
+  width: 45%;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-heading{
+  color: #f2f2f2;
+  letter-spacing: 1px;
+   font-size: 27px;
+   font-weight: 200px;
+}
+.link{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.third .email-form{
+  margin-top: 7%;
+  position: relative;
+  left:0;
+}
+/*media queries*/
+@media queries (max-width: 768px) {
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("cropped.jpg");
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}

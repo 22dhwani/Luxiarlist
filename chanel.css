@@ -1,0 +1,189 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+video {
+  object-fit: contain;
+  object-position: center;
+}
+
+.bar {
+  width: 100%;
+  height: 10%;
+  margin-top: 0.5%;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.top-bar {
+  padding-left: 43%;
+  padding-top: 1.5%;
+
+}
+
+.icons {
+  display: inline;
+  color: black;
+  vertical-align: super;
+  font-weight: lighter;
+  -webkit-text-stroke: 1.5px white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  padding-right: 25px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.info-tag {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.line {
+  border-top: 1px solid white;
+  opacity: 1;
+  height: 12px;
+  margin: 10% 46.5%;
+  width: 7%;
+}
+
+.necklace-info {
+  opacity: 1;
+  margin: 5% auto;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 54%;
+  font-size: 13px;
+  line-height: 2;
+  word-spacing: 2px;
+}
+
+.fadePop {
+  display: block;
+  margin-left: auto;
+ margin-right: auto;
+ width: 42%;
+  /* make sure your div is there */
+  opacity: 0;
+  /* make sure you can't see it yet */
+  visibility: visible;
+  /* make sure its visible when opacity will be 1 */
+  animation-name: doAnim;
+  /* make reference to the keyframes below */
+  /* wait 5 seconds to start animation */
+  animation-duration: 9s;
+  /* make keyframes run for 6 seconds */
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes doAnim {
+  0%  {opacity:0;}
+  5%  {opacity:0.1;}
+  10%  {opacity:0.2;}
+  15%  {opacity:0.3;}
+  20%  {opacity:0.4;}
+  25%  {opacity:0.5;}
+  30% {opacity: 0.6;}
+  35% {opacity: 0.7;}
+  40% {opacity: 0.8;}
+  45% {opacity: 0.9;}
+  50% {opacity: 1; }
+  55% {opacity: 0.9;}
+  60%  {opacity:0.8;}
+  65%  {opacity:0.7;}
+  70%  {opacity:0.6;}
+  75%  {opacity:0.5;}
+  80%  {opacity:0.4;}
+  85% {opacity: 0.3;}
+  90% {opacity: 0.2;}
+  95% {opacity: 0.1;}
+  100% {opacity: 0;}
+}
+.feather-info{
+  margin-top:3%;
+  display: inline-block;
+}
+.feather-info h3{
+  word-spacing: 2px;
+  line-height: 1.3;
+}
+.fade-in {
+	animation: fadeIn 12s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+.hideme
+{
+    opacity:0;
+}
+.sketch-info{
+  margin-top:20%;
+  text-align: center;
+  height:70%;
+  width:100%;
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size:cover;
+ background-position: center;
+ color: white;
+ font-family: 'Montserrat', sans-serif;
+ padding-bottom: 3%;
+}
+.footer{
+  width: 100%;
+  height:100%;
+position:scrolled;
+top: 0;
+padding-top: 7%;
+padding-bottom: 2%;
+color: white;
+font-family: 'Montserrat', sans-serif;
+
+}
+.links-section{
+  margin:7% 4%;
+  display:inline-grid;
+  text-align: left;
+}
+.links{
+  display:block;
+  color:grey;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2.5;
+}
+.links:hover{
+  color:grey;
+  text-decoration: underline;
+}
+.icon{
+  display: inline;
+  float: right;
+  color:grey;
+  padding-right: 20px;
+}
